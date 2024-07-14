@@ -1,0 +1,143 @@
+@import url('css/home.css');
+@import url('css/aboutme.css');
+@import url('css/projects.css');
+@import url('css/contact.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #ccc;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.link-container {
+    text-align: center;
+}
+
+.gitHubVariable {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.5rem;
+
+}
+
+.gitHubVariable.purple {
+    color: #b565a7;
+    margin-right: 70px;
+}
+
+.gitHubVariable.green {
+    color: #82b74b;
+}
+
+.gitHubVariable.orange {
+    color: #e59f3f;
+}
+
+.gitHubVariable a {
+    color: #b32fa8;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #444;
+    color: #ccc;
+}
+
+.tech-item i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.tech-item img.tech-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+}
+
+.social-card {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #444;
+    color: #ccc;
+    display: inline-block;
+}
+
+.social-card a {
+    color: #0077b5;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.social-card a:hover {
+    text-decoration: underline;
+}
+
+.social-card i {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+

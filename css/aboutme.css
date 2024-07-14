@@ -1,0 +1,89 @@
+#aboutme-container {
+    display: flex;
+    height: 60vh;
+    margin: 20px;
+}
+
+#folder-icons {
+    margin-right: 20px;
+    padding-right: 10px;
+    border: 2px solid #b48224;
+    border-radius: 10px;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+#file-content {
+    flex: 1;
+    border: 2px solid #44b322;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.folder-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.folder-icon img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.file-items {
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 28px;
+}
+
+.file-item {
+    align-items: center;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.file-item img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+#file-content {
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+#file-content p {
+    font-weight: bold;
+    color: #e5e3e7;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+
+
+
+
+
