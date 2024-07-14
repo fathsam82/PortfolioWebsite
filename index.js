@@ -123,8 +123,8 @@ document.addEventListener("DOMContentLoaded", () => {
             case 'programming':
                 fileContent.innerHTML = `
                     <p>I have always tackled problems head-on. Whether it was taking apart my washing machine to figure out why water wasn't draining or dissecting my nearly decade-old PlayStation 4 to clean the dust out of the fans. I've always enjoyed taking things apart and putting them back together for fun.</p>
-                    <p>I realized that I could build my own applications, dissect each line of code, and perceive it as a machine, with each component comprising variables, constructors, loops, conditions, and logic, all working in unison to create something extraordinary! As I keep learning more, I appreciate the freedom in creating programs without being constrained by the limitations of pre-existing applications.</p>
-                    <p>My favorite aspect of programming is that there's always a way. With an ordinary toolset, anyone can create anything they envision and solve any problem they set their mind to. Most exiting to me is the perpetual nature of learning and mastering communication between man and machine. There's always more to learn, something new to explore and push the boundries of.</p>
+                    <p>I realized that I could build my own applications, dissect each line of code, and perceive it as a machine, with each component comprising variables, constructors, loops, conditions, and logic, all working in unison to create something extraordinary!</p>
+                    <p>My favorite aspect of programming is that there's always a way. With an ordinary toolset, anyone can create anything they envision and solve any problem they set their mind to. As I keep learning more, I appreciate the freedom in creating programs without being constrained by the limitations of pre-existing applications. Most exiting to me is the perpetual nature of learning and understanding the communication between man and machine. There's always more to learn, something new to explore and push the boundries of.</p>
                 `;
                 break;
             // case 'photography':
