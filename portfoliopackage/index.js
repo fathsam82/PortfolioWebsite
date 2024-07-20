@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
             //     break;
             case 'recreation':
                 fileContent.innerHTML = `
-                    <p>When I'm not programming or practicing me leetcode algorithms, you can find me in the mountains. Living near the foothills of the front range, I take every opportunity to wander into the mountains. Nearly 6 years ago, I climbed my first fourteen-thousand-foot mountain. With my knees about to give out right below the peak of Mt.Quandary, I miraculously found the strength to make it to the peak. Although it was one of the most physically demanding things I've ever done, it was also one of the most gratifying. The 360 panoramic view from the top of the mountain was unlike anything I'd ever experienced!</p>
+                    <p>When I'm not programming or practicing leetcode algorithms, you can find me in the mountains. Living near the foothills of the front range, I take every opportunity to wander into the mountains. Nearly 6 years ago, I climbed my first fourteen-thousand-foot mountain. With my knees about to give out right below the peak of Mt.Quandary, I miraculously found the strength to make it to the peak. Although it was one of the most physically demanding things I've ever done, it was also one of the most gratifying. The 360 panoramic view from the top of the mountain was unlike anything I'd ever experienced!</p>
                     <p>The great outdoors always gives me a sense of serenity. To me, nothing is quite inspiring as a hike through the mountains.</p>
                 `;
                 break;
