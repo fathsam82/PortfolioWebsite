@@ -30,7 +30,7 @@
 
 .project-image img {
     border-radius: 10px;
-    width: 80%;
+    width: 80%;    /*   */
     height: auto;
 }
 
@@ -73,7 +73,8 @@
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
+   
+  
 }
 
 .project-button:hover {
